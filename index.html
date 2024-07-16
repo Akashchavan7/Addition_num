@@ -70,7 +70,11 @@
       const sum= parseInt(number1.value || 0) + parseInt(number2.value || 0)
       add.innerText=`Addition is: ${sum}`
   }
-
+  function resetSum() {
+      number1.value = "";
+      number2.value = "";
+      add.innerText = "";
+    }
 
   </script>
  
